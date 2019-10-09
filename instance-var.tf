@@ -2,7 +2,8 @@ variable "NumInstances"{
   default = "1"
 }
 variable "instance_shape" {
-  default = "VM.Standard2.1"
+  # Always free対象
+  default = "VM.Standard.E2.1.Micro"	
 }
 variable "instance_display_name" {
   default = "TerraformInstance"

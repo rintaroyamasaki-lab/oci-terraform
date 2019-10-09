@@ -11,5 +11,6 @@ variable "private_key_path" {
   default = "~/.oci/oci_api_key.pem"
 }
 variable "region" {
-  default = "us-phoenix-1"
+  default = "us-ashburn-1"
+  # default = "us-phoenix-1"
 }

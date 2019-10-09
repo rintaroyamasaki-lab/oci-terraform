@@ -8,6 +8,7 @@ To run, configure your OCI provider as described in https://www.terraform.io/doc
 
 ## Version
 
+The example uses bellow version.
 ```
 Terraform v0.12.9
 + provider.oci v3.46.0
